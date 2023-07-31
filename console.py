@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Command interpreter for Holberton AirBnB project
+Command interpreter for Holberton AirBnB project.
 """
 import cmd
 from models import storage, CNC

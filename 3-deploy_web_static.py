@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
     Fabric script that creates and distributes an archive
-    on my web servers, using deploy function
+    on my web servers, using deploy function.
 """
 from fabric.api import *
 from fabric.operations import run, put, sudo, local
