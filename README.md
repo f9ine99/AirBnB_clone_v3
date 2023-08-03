@@ -67,7 +67,8 @@ No known bugs at this time.
 
 ## Authors
 
-firaol gemeda <f9ine99@gmail.com>
+firaol gemeda [github](f9ine99) / [gmail]<f9ine99@gmail.com>
+daniel demeke [github](Dani-1138)
 
 ## License
 Public Domain. No copywrite protection.
