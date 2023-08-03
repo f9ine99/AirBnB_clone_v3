@@ -1,37 +1,18 @@
-# AirBnB Clone: Flask Web Application
-
-## Description
-
-This directory contains all the Web Application files for the Python Flask App.
-The Flask App and nginx are connected with gunicorn Web Server Gateway
-Interface (WSGI).
-
-## Environment
-
-* __OS:__ Ubuntu 14.04 LTS
-* __language:__ Python 3.4.3
-* __application server:__ Flask 0.12.2, Jinja2 2.9.6
-* __database:__ mysql Ver 14.14 Distrib 5.7.18
-* __python style:__ PEP 8 (v. 1.7.0)
-* __web static style:__ [W3C Validator](https://validator.w3.org/)
-
-## Tests
-
-* Test Flask App integration with Storage Engine:
-
-```
-$ cat 7-dump.sql | mysql -uroot -p
-```
-
-* Test complete integation with files AirBnB HTML: `10-hbnb.py` &
-  `100-hbnb.html`. Execute from root directory (`AirBnB_clone`) with all the
-  necessary environmental variables to establish the database storage model:
-
-```
-$ cat 100-dump.sql | mysql -uroot -p
-$ python3 -m web_flask.100-hbnb
-```
-
-## License
-
-MIT License
+# AirBnB clone - Web Framework
+## File Structure
+- [100-hbnb.py](100-hbnb.py) - last iteration of Flask web application.
+- **[templates](templates)** directory contains all the html/jinja templates for the Flask web application.
+    - [100-hbnb.html](100-hbnb.html) - last iteration of html/jinja template for the Flask web application.
+- **[static](static)** directory contains all the css and images used for the Flask web application.
+    - **[styles](static/styles)** directory contains all css used for the Flask web application.
+        - [3-footer.css](static/styles/3-footer.css) - last iteration of css for the footer.
+        - [3-header.css](static/styles/3-fheader.css) - last iteration of css for the header.
+        - [4-common.css](static/styles/4-common.css) - last iteration of css for the body.
+        - [6-filters.css](static/styles/6-filters.css) - last iteration of css for the filters.
+        - [8-places.css](static/styles/8-places.css) - last iteration of css for the places display.
+    - **[images](static/images)** directory contains all images used for the Flask web application.
+        - [icon.png](static/images/icon.png) - HBnB icon.
+        - [icon_bath.png](static/images/icon_bath.png) - icon of a bath.
+        - [icon_bed.png](static/images/icon_bed.png) - icon of a bed.
+        - [icon_group.png](static/images/icon_group.png) - icon of a group of people.
+        - [logo.png](static/images/logo.png) - HBnB logo.
